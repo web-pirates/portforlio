@@ -1,0 +1,558 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="{% static 'img/favicon.png' %}" type="{% static 'image/png' %}">
+	<title>Manish Portfolio</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'vendors/linericon/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendors/owl-carousel/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+	<link rel="stylesheet" href="{% static 'vendors/nice-select/css/nice-select.css' %}">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<!-- main css -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="#home"><img src="{% static 'img/MANISHLOGO2.png' %}" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				    
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav justify-content-end">
+						<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about" >About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<!--================ End Header Area =================-->
+
+<!--================ Start Home Banner Area =================-->
+<section class="home_banner_area" id="home">
+	<div class="banner_inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="banner_content">
+						<h3 class="text-uppercase">Hell0</h3>
+						<h1 class="text-uppercase">I am Manish Singh</h1>
+						<h5 class="text-uppercase">Junior Python developer</h5>
+						<div class="d-flex align-items-center">
+							<a class="primary_btn" href="tel:+917000169166"><span>Call Me</span></a>
+							<!-- <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="home_right_img">
+						<img class="" src="{% static 'img/banner/home-right.png' %}" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================ End Home Banner Area =================-->
+
+<!--================ Start About Us Area =================-->
+<section class="about_area section_gap" id="about">
+	<div class="container">
+		<div class="row justify-content-start align-items-center">
+			<div class="col-lg-5">
+				<div class="about_img">
+					<img class="" src="{% static 'img/about-us.png' %}" alt="">
+				</div>
+			</div>
+
+			<div class="offset-lg-1 col-lg-5">
+				<div class="main_title text-left">
+					<h2>let’s <br>
+						Introduce about <br>
+					myself</h2>
+					<p>
+						I'm Manish Singh, a Website Designer and Developer. I design websites for small businesses and firms. As I have a great command on Python, Ruby and PHP and Framework like Django and Ruby on Rails. I am fond of new technology, gadgets and games. Whenever, If I get leisure time either hangout with Friends or taking a nap.
+
+					</p>
+					<p>
+						I am passionate about learning new things about solving real-life problems. I am a socially active person.
+					</p>
+					<!-- <a class="primary_btn" href="#"><span>Download CV</span></a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================ End About Us Area =================-->
+
+<!--================ Srart Brand Area =================-->
+<section class="brand_area section_gap_bottom">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo1.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo2.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo3.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo4.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo5.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo6.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+					<!-- 
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo7.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo8.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-brand-item d-table">
+							<div class="d-table-cell text-center">
+								<img src="{% static 'img/brands/logo9.png' %}" alt="">
+							</div>
+						</div>
+					</div>
+ -->
+				</div>
+			</div>
+			<div class="offset-lg-2 col-lg-4 col-md-6">
+				<div class="client-info">
+					<div class="d-flex mb-50">
+						<span class="lage">0.75</span>
+						<span class="smll">Years Experience Working</span>
+					</div>
+					<div class="call-now d-flex">
+						<div>
+							<span class="fa fa-phone"></span>
+						</div>
+						<div class="ml-15">
+							<p>call us now</p>
+							<h3>[Phone Protected]</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- This id is passed here because half of the content is hidding behind the navbar -->
+	<p id="services"></p> 
+</section>
+<!--================ End Brand Area =================-->
+
+<!--================ Start Features Area =================-->
+
+<section class="features_area">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<div class="main_title">
+					<h2>service offers </h2>
+					<p>
+						 Along with development work, our expert is offering a stunning design with eye-catching graphics. <br> Our experienced development team believes in light code composed website irrelevant to the number of pages.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row feature_inner">
+			<div class="col-lg-3 col-md-6">
+				<div class="feature_item">
+					<img src="{% static 'img/services/s1.png' %}" alt="">
+					<h4>Web development</h4>
+					<p>Integrate data from various back-end services and databases</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="feature_item">
+					<img src="{% static 'img/services/s2.png' %}" alt="">
+					<h4>UI/ux design</h4>
+					<p>Illustrating design ideas using storyboards, process flows and sitemaps</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="feature_item">
+					<img src="{% static 'img/services/s3.png' %}" alt="">
+					<h4>Web design</h4>
+					<p>Imagination creates the look, layout, and features of a website</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="feature_item">
+					<img src="{% static 'img/services/s4.png' %}" alt="">
+					<h4>seo optimize</h4>
+					<p>Develop and implement link building strategy for SEO success</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- This id is passed here because half of the content is hidding behind the navbar -->
+	<p id="portfolio"></p>
+</section>
+<!--================ End Features Area =================-->
+
+<!--================Start Portfolio Area =================-->
+<section class="portfolio_area pb-0" >
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="main_title text-left">
+					<h2>Things which <br>
+					Keep Me Alive and Motivated </h2>
+				</div>
+			</div>
+		</div>
+		<div class="filters portfolio-filter">
+			<ul>
+				<li class="active" data-filter="*">all</li>
+				<li data-filter=".hobbies">Hobbies</li>
+				<li data-filter=".passion"> Passion</li>
+				<li data-filter=".curious">Curious</li>
+			</ul>
+		</div>
+
+		<div class="filters-content">
+			<div class="row portfolio-grid justify-content-center">
+
+				<div class="col-lg-4 col-md-6 all hobbies">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?Travel" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?Travel" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Travel</a></h4>
+							<p>Take memories, leave footprints.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 all passion">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?marketing" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?marketing" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Marketing</a></h4>
+							<p>Less is more.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 all hobbies">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?Book" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?Book" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Reading</a></h4>
+							<p>Think before you speak. Read before you think.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 all Passion">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?gym equipment" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?gym equipment" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Gymnasium</a></h4>
+							<p>Excuses don't burn calories!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 all curious">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?computer" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?computer" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Technology</a></h4>
+							<p>Imagination is more important than knowledge</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 all hobbies">
+					<div class="portfolio_box">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" style="height: 300px;" src="https://source.unsplash.com/1600x900/?Music" alt="">
+							<div class="overlay"></div>
+							<a href="https://source.unsplash.com/1600x900/?Music" class="img-gal">
+								<div class="icon">
+									<span class="lnr lnr-cross"></span>
+								</div>
+							</a>
+						</div>
+						<div class="short_info">
+							<h4><a href="portfolio-details.html">Listening Music</a></h4>
+							<p>Where words fail, music speaks.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<!--================End Portfolio Area =================-->
+
+<!-- ==================Contact Area ====================== -->
+<section class="contact_area section_gap" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="main_title text-left">
+					<h2>Contacts</h2>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="contact_info">
+					<div class="info_item">
+						<i class="lnr lnr-home"></i>
+						<h6>Madhya Pradesh, India</h6>
+						<p>Bank Note Press Road</p>
+					</div>
+					<div class="info_item">
+						<i class="lnr lnr-phone-handset"></i>
+						<h6><a href="tel:+917000169166">[Phone Protected]</a></h6>
+						<p>Mon to Fri 9am to 6 pm</p>
+					</div>
+					<div class="info_item">
+						<i class="lnr lnr-envelope"></i>
+						<h6><a href="#"><span class="__cf_email__" data-cfemail="1d6e686d6d726f695d7e7271726f71747f337e7270">[email&#160;protected]</span></a></h6>
+						<p>Send us your query anytime!</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<form class="row contact_form" action="" method="post" id="contactForm" novalidate="novalidate">
+					{% csrf_token %}
+					<div class="col-md-6">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+						</div>
+					</div>
+					<div class="col-md-12 text-right">
+						<button type="submit" value="submit" class="primary_btn">
+							<span>Send Message</span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		 {% if messages %}
+	   		 {% for message in messages %}
+	   			 <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+	   			 	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+					  <strong>{{ message }}</strong>
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					    <span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+	   			 </li>
+	  	     {% endfor %}
+		{% endif %}
+
+		<iframe style="width: 100%;" class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.5341689427955!2d76.05441723604623!3d22.980911050529365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396317bbfde51d8d%3A0x6c430672200c909f!2sAdarsh%20Nagar%2C%20Itawa%2C%20Dewas%2C%20Madhya%20Pradesh%20455001!5e0!3m2!1sen!2sin!4v1596009771759!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+</section>
+<!-- ==================End Contact Area ================== -->
+
+<!--================ Start Newsletter Area =================-->
+<section class="newsletter_area">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12 col-md-8 col-sm-12">
+				<div class="subscription_box text-center">
+					<h2 class="text-uppercase text-white">get update from anywhere</h2>
+					<p class="text-white">
+						Don't Miss out the latest updates of Event and Tech. 
+					</p>
+					<div class="subcribe-form" >
+						<form action="" method="POST" class="subscription relative">
+							{% csrf_token %}
+							<input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
+							
+							<button class="primary-btn hover d-inline" type="submit" >Get Started</button>
+							<!-- <div class="info"></div> -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================ End Newsletter Area =================-->
+
+
+<!--================Footer Area =================-->
+<footer class="footer_area">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				<div class="footer_top flex-column">
+					<div class="footer_logo">
+						<a href="#">
+							<img src="{% static 'img/MANISHLOGO2.png' %}" alt="">
+						</a>
+						<h4>Follow Me</h4>
+					</div>
+					<div class="footer_social">
+						<a href="https://www.instagram.com/manish97135/"><i class="fa fa-instagram"></i></a>
+						<a href="https://api.whatsapp.com/send?phone=7000169166"><i class="fa fa-whatsapp"></i></a>
+						<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-behance"></i></a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer_bottom justify-content-center">
+			<p class="col-lg-8 col-sm-12 footer-text">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="" target="_blank">Manish</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+     
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'js/popper.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/stellar.js' %}"></script>
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'vendors/nice-select/js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'vendors/isotope/imagesloaded.pkgd.min.js' %}"></script>
+	<script src="{% static 'vendors/isotope/isotope-min.js' %}"></script>
+	<script src="{% static 'vendors/owl-carousel/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+	<script src="{% static 'js/mail-script.js' %}"></script>
+	<!--gmaps Js-->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script> -->
+	<!-- <script src="{% static 'js/gmaps.min.js' %}"></script> -->
+	<script src="{% static 'js/theme.js' %}"></script>
+</body>
+
+</html>
+
+
